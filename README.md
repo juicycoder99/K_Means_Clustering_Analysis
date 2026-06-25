@@ -1,10 +1,7 @@
-# Data Mining (CS405/CS505) — Assignment 3: K-means
+# K-Means Clustering Analysis
 
-Coursework for **Data Mining (CS405/CS505)**, Bishop's University.
-
-K-means clustering with scikit-learn, studying the effect of initialization, the number of
-clusters, the data distribution, and a discriminant-space projection. The full solution, answering
-all five questions, is in [`Assignment3_KMeans_Clustering.ipynb`](Assignment3_KMeans_Clustering.ipynb).
+K-means clustering with scikit-learn: studying the effect of initialization strategy, cluster count,
+data distribution, and a discriminant-space projection.
 
 ## Topics covered
 
@@ -21,12 +18,12 @@ The texture dataset is downloaded automatically via `fetch_openml('texture')`.
 
 ```bash
 pip install numpy matplotlib scikit-learn
-jupyter notebook Assignment3_KMeans_Clustering.ipynb
+jupyter notebook kmeans_clustering.ipynb
 ```
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| `Assignment3_KMeans_Clustering.ipynb` | Full solution with answers to all 5 questions |
-| `Assignment 3.pdf` | Assignment description |
+| `kmeans_clustering.ipynb` | Full implementation and analysis, covering all five experiments |
+| `PROJECT_BRIEF.pdf` | Project brief (goals, objectives, outcomes) |
